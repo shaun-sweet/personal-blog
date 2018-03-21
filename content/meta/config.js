@@ -1,31 +1,31 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  homeTitle: "Personal blog",
+  homeTitle: "Shaun Sweet | Developer Blog",
   siteTitle: "PersonalBlog - a blog starter for GatsbyJS",
   shortSiteTitle: "PersonalBlog GatsbyJS Starter",
   siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
-  pathPrefix: "/personal-blog",
+  siteUrl: "https://blog.shaunsweet.com",
+  pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Shaun Sweet",
+  authorTwitterAccount: "ssweet06",
   // info
-  infoTitle: "greg lobinski",
-  infoTitleNote: "personal blog",
+  infoTitle: "Shaun Sweet",
+  infoTitleNote: "Developer Blog",
   // manifest.json
-  manifestName: "PersonalBlog - a blog starter for GatsbyJS",
-  manifestShortName: "PersonalBlog", // max 12 characters
+  manifestName: "Personal Blog - Shaun Sweet",
+  manifestShortName: "Blog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.bg,
   manifestThemeColor: colors.bg,
   manifestDisplay: "standalone",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/shaun-sweet" },
+    { name: "twitter", url: "https://twitter.com/ssweet06" },
+    { name: "facebook", url: "https://www.facebook.com/shaun.sweet.71" }
   ]
 };
