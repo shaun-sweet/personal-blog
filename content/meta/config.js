@@ -2,9 +2,9 @@ const colors = require("../../src/styles/colors");
 
 module.exports = {
   homeTitle: "Shaun Sweet | Developer Blog",
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS",
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter",
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
+  siteTitle: "Shaun Sweet | Developer Blog",
+  shortSiteTitle: "Shaun Sweet | Developer Blog",
+  siteDescription: "Shaun Sweet | Developer Blog",
   siteUrl: "https://blog.shaunsweet.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
