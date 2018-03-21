@@ -2,4 +2,4 @@
 title: footnote
 ---
 
-* Footer
+* &copy; Shaun Sweet
