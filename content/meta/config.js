@@ -7,7 +7,7 @@ module.exports = {
   siteDescription: "Shaun Sweet | Developer Blog",
   siteUrl: "https://blog.shaunsweet.com",
   pathPrefix: "",
-  siteImage: "preview.jpg",
+  siteImage: "avatar.jpg",
   siteLanguage: "en",
   // author
   authorName: "Shaun Sweet",
