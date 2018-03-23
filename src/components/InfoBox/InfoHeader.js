@@ -108,27 +108,22 @@ const styles = theme => ({
 const InfoHeader = props => {
   const { classes, avatarOnClick, expandOnClick } = props;
 
-  return (
-    <header className={classes.header}>
+  return <header className={classes.header}>
       <Link className={classes.avatarLink} onClick={avatarOnClick} to="/" title="back to Home page">
         <div className={classes.avatar}>
           <img src={avatar} alt="" />
         </div>
       </Link>
-      <h1 className={classes.title}>
-        {config.infoTitle.replace(/ /g, "\u00a0")}
-        <small>{config.infoTitleNote}</small>
-      </h1>
-      <IconButton
-        aria-label="Expand the box"
-        className={classes.expand}
-        onClick={expandOnClick}
-        title="Expand the box"
-      >
+      <Link onClick={avatarOnClick} style={{color: 'unset'}} to="/" title="back to Home page">
+        <h1 className={classes.title}>
+          {config.infoTitle.replace(/ /g, "\u00a0")}
+          <small>{config.infoTitleNote}</small>
+        </h1>
+      </Link>
+      <IconButton aria-label="Expand the box" className={classes.expand} onClick={expandOnClick} title="Expand the box">
         <ExpandMoreIcon />
       </IconButton>
-    </header>
-  );
+    </header>;
 };
 
 InfoHeader.propTypes = {
