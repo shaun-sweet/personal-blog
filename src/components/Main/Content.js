@@ -14,6 +14,9 @@ const styles = theme => ({
       borderBottom: `1px solid ${theme.base.colors.link}`,
       color: theme.base.colors.link
     },
+    "& img": {
+      width: '100%'
+    },
     "& .gatsby-highlight": {
       margin: "2em 0"
     },

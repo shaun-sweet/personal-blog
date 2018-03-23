@@ -59,6 +59,7 @@
   "dependencies": {
     "color": "^3.0.0",
     "gatsby": "1.9.224",
+    "gatsby-cli": "^1.1.48",
     "gatsby-image": "^1.0.35",
     "gatsby-link": "^1.6.36",
     "gatsby-plugin-algolia": "^0.0.3",
