@@ -2,7 +2,7 @@
 title: JAM stack
 subTitle: You're looking at it
 date: 2018-03-21
-category: ["static site generator", "JAM"]
+category: ohh shiney
 cover: remove-from-database-icon.png
 ---
 

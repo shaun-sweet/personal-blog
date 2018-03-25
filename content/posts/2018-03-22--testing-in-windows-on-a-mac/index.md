@@ -2,7 +2,7 @@
 title: Testing in Windows on OSX
 subTitle: Sometimes... you gotta
 date: 2018-03-22
-category: ["troubleshooting", "windows", "environments"]
+category: guide
 cover: windows-logo-white.png
 ---
 
