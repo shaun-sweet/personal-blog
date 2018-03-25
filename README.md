@@ -1,3 +1,3 @@
-#My personal blog
+# My personal blog
 
 This is the repo for my personal blog.  It is a JAM stack application where the database is basically just a bunch of markdown files!  The build process transforms the content via an AST and ultimately, into json for the front end to leverage as a "database" to query.  It's basically a bit lower level than wordpress, but without the bloat and all the functionality and then some!  
